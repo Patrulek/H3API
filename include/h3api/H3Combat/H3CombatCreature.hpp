@@ -145,7 +145,8 @@ namespace h3
 		H3WavFile* extraSound1;
 		/** @brief [18C]*/
 		H3WavFile* extraSound2;
-		h3unk8 _f_190[4];
+		/** @brief [190] used in sub_23340 (23373, 23379) for ordering units move in turn; probably current unit speed*/
+		INT32 maybeUnitSpeed;
 	public:
 		/** @brief [194] number of spells currently active*/
 		INT32 activeSpellNumber;

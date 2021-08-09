@@ -82,9 +82,9 @@ namespace h3
 		 */
 		BOOL8 belongsToAttacker[14];
 		/** @brief [4A] */
-		BOOL8 availableForLeftSquare;
+		BOOL8 isUnitReachableForAttackerSide; // check from h3hota hd.exe + 2055D to 20575
 		/** @brief [4B] */
-		BOOL8 availableForRightSquare;
+		BOOL8 isUnitReachableForDefenderSide;
 	protected:
 		h3unk8 _f_4C[32];
 		h3unk8 _f_6C[4];
